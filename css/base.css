@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: transparent;
+}
+ul,li {
+	list-style: none;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+      url('../font/iconfont.woff2') format('woff2'),
+      url('../font/iconfont.woff') format('woff'),
+      url('../font/iconfont.ttf') format('truetype'),
+      url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.div {
+	display: block;
+	width: 100%;
+}
+.f_left {
+	float: left;
+}
+.f_right {
+	float: right;
+}
+.clearfix:after {
+	content: '';
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	opacity: 0;
+}
+.four_culumn {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+.culumn_item {
+	position: relative;
+}
+.bgc0 {
+	background: rgb(206, 175, 163);
+}
+.bgc1 {
+	background: rgb(136, 163, 192);
+}
+.bgc2 {
+	background: rgb(205, 163, 177);
+}
+.bdred {
+	border: .01rem solid #ff0036;
+	color: #ff0036;
+}
+.bdblue {
+	border: .01rem solid #4a90e2;
+	color: #4a90e2;
+}
