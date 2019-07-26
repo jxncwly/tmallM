@@ -571,6 +571,7 @@
 }
 .tmall_container > main > .prod_show > main .culumn_item > .intro > .rights > * {
 	height: .28rem;
+	line-height: .28rem;
 	margin-right: .06rem
 }
 .tmall_container > main > .prod_show > main .culumn_item > .intro > .rights img {
